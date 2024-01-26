@@ -6,8 +6,8 @@
       "command": "npm install"
     },
     {
-      "command": "tsc *.ts",
-      "name": "tsc *.ts"
+      "name": "tsc *.ts",
+      "command": "npx tsc  *.ts "
     }
   ],
 
@@ -16,11 +16,6 @@
     "test": {
       "name": "test",
       "command": "yarn test"
-    },
-    "": {
-      "name": "",
-      "command": "",
-      "runAtStart": true
     }
   }
 }
